@@ -152,7 +152,7 @@ namespace makerbit {
     startPosition: number,
     endPosition: number
   ): void {
-    const whitespace = " ".charCodeAt(0);
+    const whitespace = "0".charCodeAt(0);
 
     for (
       let textPosition = 0;
